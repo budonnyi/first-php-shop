@@ -1,0 +1,66 @@
+.caption_slides {
+  background-color: #fff;
+  opacity: 0.6;
+  width: 60%;
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+  text-align:center;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+
+.caption_slides:hover {
+  opacity: 0.8;
+}
+
+.caption_slides h3{
+  color: #000;
+  font-size: 2em;
+}
+
+.caption_slides p{
+  line-height: 1em;
+  text-align: center;
+  font-weight: 300;
+  width: 95%;
+  margin: 5px auto 0px;
+  margin-bottom: 1em;
+  color: #000;
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+ .rslides img:hover {
+  opacity: 0.8;
+ }

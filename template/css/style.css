@@ -1,0 +1,324 @@
+/*FOOTER*/
+.facebook {
+    background-color:#3b5998;
+}
+
+.facebook:hover {
+    background-color:#2d4373;
+}
+
+.google {
+    background-color:#dd4b39;
+}
+
+.google:hover {
+    background-color:#c23321;
+}
+
+.twitter {
+    background-color:#55acee;
+}
+
+.twitter:hover {
+    background-color:#2795e9;
+}
+
+.vkontakte {
+    background-color:#587ea3;
+}
+
+.vkontakte:hover {
+    background-color:#466482;
+}
+
+.ok {
+    background-color:#ee8208;
+}
+
+.ok:hover {
+    background-color:#ee7808; color:#fff;
+}
+
+.navbar-social {
+    position: relative;
+    float: right;
+    /*right: 0;*/
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.push {
+    display: inline-block;
+    width: 5%;
+    min-width: 100px;
+    line-height: 30px;
+    margin: 5px 2px 8px 2px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.aa-footer-navigation-text {
+    font-size: 13px;
+    font-weight: 400;
+    color: #6d6d6d;
+    padding-left: 0px;
+}
+
+.aa-footer-navigation-heading {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.aa-footer-navigation-text a,
+.aa-footer-navigation-text a:focus,
+.aa-footer-navigation-text a:active {
+    color: #6d6d6d;
+}
+
+.aa-footer-navigation-text a:hover {
+    color: #000;
+}
+
+ul.unstyled, ol.unstyled {
+    margin-left: 0;
+    list-style: none;
+}
+
+.border-top {
+    border-top: 1px solid #d4d4d4;
+}
+
+.spacer {
+    margin-top: 10px;
+}
+
+
+
+
+/**/
+.videomargin {
+    margin-left: -30px;
+}
+
+.videoWrapper {
+    position: relative;
+    height: 0;
+}
+
+* html .videoWrapper {
+    margin-bottom: 45px;
+    margin-bottom: 0;
+}
+
+.videoWrapper iframe, .videoWrapper div, .videoWrapper embed, .videoWrapper object {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.videoWideScreen {
+    padding-bottom: 56.25%;
+}
+
+
+/*COMMON*/
+#owl-pictures .item{
+    margin: 2px;
+}
+
+#owl-pictures .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+@media print {
+    .visible-print {
+        display: inherit !important;
+    }
+
+    .hidden-print {
+        display: none !important;
+    }
+}
+
+/*.media-description {*/
+    /*line-height: 1.1;*/
+/*}*/
+
+/*VIEW*/
+
+
+#booklist {
+    float: left;
+    margin-left: 4px;
+    font-size: 10px;
+    line-height: 1.1em;
+}
+
+#booklistDiv {
+    margin-bottom: 7px;
+    padding-top: 6px;
+    height: 37px;
+    width: auto;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    /*clear: both;*/
+    overflow: hidden;
+}
+
+#booklistI {
+    float: left;
+    margin-left: 2px;
+    margin-top: -4px;
+    color: red;
+    font-size: 31px;
+}
+
+/*MENU*/
+
+.menu .accordion, .menu .accordion li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu .accordion a {
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+
+.menu .accordion a.dcjq-parent.active {
+    color: #000;
+    font-weight: 600;
+}
+
+.menu .accordion a:hover {
+    color: #006191;
+}
+
+/*contacts*/
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 2;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+input .form-control {
+    height: 40px;
+    line-height: 4;
+}
+
+.form-control::-ms-expand {
+    background-color: transparent;
+    border: 0;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: none;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #868e96;
+    opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #868e96;
+    opacity: 1;
+}
+
+.form-control::placeholder {
+    color: #868e96;
+    opacity: 1;
+}
+
+.col-form-label {
+    padding-top: calc(0.5rem - 1px * 2);
+    padding-bottom: calc(0.5rem - 1px * 2);
+    margin-bottom: 0;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+
+
+
+label, input, button, select, textarea {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 35px;
+}
+
+input, button, select, textarea {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    display: inline-block;
+    height: 35px;
+    padding: 4px 6px;
+    margin-bottom: 9px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #555;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+input, textarea, .uneditable-input {
+    width: 206px;
+}
+
+textarea {
+    height: auto;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border linear .2s, box-shadow linear .2s;
+    -moz-transition: border linear .2s, box-shadow linear .2s;
+    -o-transition: border linear .2s, box-shadow linear .2s;
+    transition: border linear .2s, box-shadow linear .2s;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+    border-color: rgba(82, 168, 236, .8);
+    outline: 0;
+    outline: thin dotted \9;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+}
